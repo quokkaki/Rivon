@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		566077A130A0B0F4005FA100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5660778B30A0B0F3005FA100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5660779230A0B0F3005FA100;
+			remoteInfo = Rivon;
+		};
+		566077AB30A0B0F4005FA100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5660778B30A0B0F3005FA100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5660779230A0B0F3005FA100;
+			remoteInfo = Rivon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5660779330A0B0F3005FA100 /* Rivon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rivon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		566077A030A0B0F4005FA100 /* RivonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RivonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		566077AA30A0B0F4005FA100 /* RivonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RivonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5660779530A0B0F3005FA100 /* Rivon */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Rivon;
+			sourceTree = "<group>";
+		};
+		566077A330A0B0F4005FA100 /* RivonTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RivonTests;
+			sourceTree = "<group>";
+		};
+		566077AD30A0B0F4005FA100 /* RivonUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RivonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5660779030A0B0F3005FA100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		5660779D30A0B0F4005FA100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		566077A730A0B0F4005FA100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5660778A30A0B0F3005FA100 = {
+			isa = PBXGroup;
+			children = (
+				5660779530A0B0F3005FA100 /* Rivon */,
+				566077A330A0B0F4005FA100 /* RivonTests */,
+				566077AD30A0B0F4005FA100 /* RivonUITests */,
+				5660779430A0B0F3005FA100 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5660779430A0B0F3005FA100 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5660779330A0B0F3005FA100 /* Rivon.app */,
+				566077A030A0B0F4005FA100 /* RivonTests.xctest */,
+				566077AA30A0B0F4005FA100 /* RivonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5660779230A0B0F3005FA100 /* Rivon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566077B230A0B0F4005FA100 /* Build configuration list for PBXNativeTarget "Rivon" */;
+			buildPhases = (
+				5660778F30A0B0F3005FA100 /* Sources */,
+				5660779030A0B0F3005FA100 /* Frameworks */,
+				5660779130A0B0F3005FA100 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				5660779530A0B0F3005FA100 /* Rivon */,
+			);
+			name = Rivon;
+			productName = Rivon;
+			productReference = 5660779330A0B0F3005FA100 /* Rivon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5660779F30A0B0F4005FA100 /* RivonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566077B530A0B0F4005FA100 /* Build configuration list for PBXNativeTarget "RivonTests" */;
+			buildPhases = (
+				5660779C30A0B0F4005FA100 /* Sources */,
+				5660779D30A0B0F4005FA100 /* Frameworks */,
+				5660779E30A0B0F4005FA100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				566077A230A0B0F4005FA100 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				566077A330A0B0F4005FA100 /* RivonTests */,
+			);
+			name = RivonTests;
+			productName = RivonTests;
+			productReference = 566077A030A0B0F4005FA100 /* RivonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		566077A930A0B0F4005FA100 /* RivonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566077B830A0B0F4005FA100 /* Build configuration list for PBXNativeTarget "RivonUITests" */;
+			buildPhases = (
+				566077A630A0B0F4005FA100 /* Sources */,
+				566077A730A0B0F4005FA100 /* Frameworks */,
+				566077A830A0B0F4005FA100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				566077AC30A0B0F4005FA100 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				566077AD30A0B0F4005FA100 /* RivonUITests */,
+			);
+			name = RivonUITests;
+			productName = RivonUITests;
+			productReference = 566077AA30A0B0F4005FA100 /* RivonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5660778B30A0B0F3005FA100 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					5660779230A0B0F3005FA100 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					5660779F30A0B0F4005FA100 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 5660779230A0B0F3005FA100;
+					};
+					566077A930A0B0F4005FA100 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 5660779230A0B0F3005FA100;
+					};
+				};
+			};
+			buildConfigurationList = 5660778E30A0B0F3005FA100 /* Build configuration list for PBXProject "Rivon" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5660778A30A0B0F3005FA100;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5660779430A0B0F3005FA100 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5660779230A0B0F3005FA100 /* Rivon */,
+				5660779F30A0B0F4005FA100 /* RivonTests */,
+				566077A930A0B0F4005FA100 /* RivonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5660779130A0B0F3005FA100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		5660779E30A0B0F4005FA100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		566077A830A0B0F4005FA100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5660778F30A0B0F3005FA100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		5660779C30A0B0F4005FA100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		566077A630A0B0F4005FA100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		566077A230A0B0F4005FA100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5660779230A0B0F3005FA100 /* Rivon */;
+			targetProxy = 566077A130A0B0F4005FA100 /* PBXContainerItemProxy */;
+		};
+		566077AC30A0B0F4005FA100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5660779230A0B0F3005FA100 /* Rivon */;
+			targetProxy = 566077AB30A0B0F4005FA100 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		566077B030A0B0F4005FA100 /* Debug configuration for PBXProject "Rivon" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3QL89A62XV;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		566077B130A0B0F4005FA100 /* Release configuration for PBXProject "Rivon" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3QL89A62XV;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		566077B330A0B0F4005FA100 /* Debug configuration for PBXNativeTarget "Rivon" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QL89A62XV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungmin.Rivon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		566077B430A0B0F4005FA100 /* Release configuration for PBXNativeTarget "Rivon" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QL89A62XV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungmin.Rivon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		566077B630A0B0F4005FA100 /* Debug configuration for PBXNativeTarget "RivonTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QL89A62XV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungmin.RivonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rivon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rivon";
+			};
+			name = Debug;
+		};
+		566077B730A0B0F4005FA100 /* Release configuration for PBXNativeTarget "RivonTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QL89A62XV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungmin.RivonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rivon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rivon";
+			};
+			name = Release;
+		};
+		566077B930A0B0F4005FA100 /* Debug configuration for PBXNativeTarget "RivonUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QL89A62XV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungmin.RivonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rivon;
+			};
+			name = Debug;
+		};
+		566077BA30A0B0F4005FA100 /* Release configuration for PBXNativeTarget "RivonUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QL89A62XV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungmin.RivonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rivon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5660778E30A0B0F3005FA100 /* Build configuration list for PBXProject "Rivon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566077B030A0B0F4005FA100 /* Debug configuration for PBXProject "Rivon" */,
+				566077B130A0B0F4005FA100 /* Release configuration for PBXProject "Rivon" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		566077B230A0B0F4005FA100 /* Build configuration list for PBXNativeTarget "Rivon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566077B330A0B0F4005FA100 /* Debug configuration for PBXNativeTarget "Rivon" */,
+				566077B430A0B0F4005FA100 /* Release configuration for PBXNativeTarget "Rivon" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		566077B530A0B0F4005FA100 /* Build configuration list for PBXNativeTarget "RivonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566077B630A0B0F4005FA100 /* Debug configuration for PBXNativeTarget "RivonTests" */,
+				566077B730A0B0F4005FA100 /* Release configuration for PBXNativeTarget "RivonTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		566077B830A0B0F4005FA100 /* Build configuration list for PBXNativeTarget "RivonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566077B930A0B0F4005FA100 /* Debug configuration for PBXNativeTarget "RivonUITests" */,
+				566077BA30A0B0F4005FA100 /* Release configuration for PBXNativeTarget "RivonUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5660778B30A0B0F3005FA100 /* Project object */;
+	validationLevel = 1;
+}
