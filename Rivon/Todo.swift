@@ -5,8 +5,6 @@
 //  Created by 승민 on 11/14/26.
 //
 
-import SwiftUI
-
 struct Todo {
     var title: String
     var isDone: Bool
